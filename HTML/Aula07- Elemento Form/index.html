@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade Heloisa</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2>Elementos de Formulário</h2>
+            <ul>
+                <li><a href=""> input e label</a></li>
+                <li><a href="">checkbox e radio</a></li>
+                <li><a href="">select e datalist</a></li>
+                <li><a href=""> textarea</a></li>
+                <li><a href="">fieldset e legend</a></li>
+                <li><a href="">Atributo action do elemento form e elemento output</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Texto poético</legend>
+
+            <p>Atualmente estou aprendendo HTML, gostei da aula de Hiperlink e estou com dificuldade em aprender
+                Elemento
+            </p>
+            <form method="post" action="" name="Churrasco">
+                <label for="">Tipos de carne</label>
+                <input type="text" maxlength="10" required name="Quero inserir uma informação sobre churrasco">
+
+                <input type="submit" name="Enviar">
+                <!---Radio-->
+                <p>Qual sua cor preferida?</p>
+                <input type="radio" name="chaaaata">
+
+                <label for="">Roxo</label><br>
+                <input type="radio" name="chaaaaaata">
+                <label for="">Roxinho</label><br>
+
+                <!-- checkbox -->
+                <p>Qual sua cor preferida?</p>
+                <input type="checkbox" name="uva">
+                <label for="">Amarelo</label><br>
+                <input type="checkbox" name="uva">
+                <label for="">Amarelinho</label><br>
+
+                <!-- select lista suspensa -->
+                <label for="">Qual o melhor time?</label><br>
+                <select name="" id="">
+                    <option value="">São Paulo</option>
+                    <option value="">Palmeiras</option>
+                    <option value="">Corinthians</option>
+                    <option value="">Santos</option>
+                </select><br>
+
+                <!-- Tipo range -->
+                0
+                <input type="range" list="valor_01" min="1" max="10">
+                10
+                <datalist id="valor_01">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+
+
+
+                <p>Sugestões, elogios e críticas:</p>
+                <textarea name="message" rows="10" cols="50" placeholder="Deixe aqui
+        a sua mensagem!" required> </textarea>
+
+
+                <!-- datalist lista pré definida -->
+            </form>
+        </fieldset>
+
+
+    </main>
+
+</body>
+
+</html>
