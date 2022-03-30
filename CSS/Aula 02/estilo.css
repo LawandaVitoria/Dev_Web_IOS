@@ -21,7 +21,9 @@ p {
  text-indent: 3em;
 }
 ul {
- font-weight: bold;
+    font-weight: bold;
+    color: orange;
+ 
 }
 footer {
  font-family: 'Courier New', Courier, monospace;
