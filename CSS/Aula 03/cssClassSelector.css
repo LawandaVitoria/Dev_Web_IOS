@@ -1,0 +1,28 @@
+@charset "utf-8";
+body {
+  background-color: #e6e6fa;
+  color: #1fccc3;
+  font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+  background-color: #18dada;
+  color: #c497ac;
+  
+
+p {
+  font-size: 0.9em;
+  text-indent: 3em;
+  background-color: royalblue;
+}
+ul {
+  font-weight: bold;
+  color: rgb(150, 109, 33);
+}
+
+}
+.cor_texto {
+  color: #c7006d;
+}
+p.fundo {
+    background-color: rgb(45, 225, 231);
+  rgb(0, 186, 199)
