@@ -3,20 +3,23 @@ body {
   background-color: #e6e6fa;
   color: #1fccc3;
   font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  font-style: italic;
 }
 h1 {
   background-color: #18dada;
-  color: #c497ac;
+  color: #c497ac; }
   
 
 p {
   font-size: 0.9em;
   text-indent: 3em;
   background-color: royalblue;
+  color: #c7006d;
 }
 ul {
   font-weight: bold;
-  color: rgb(150, 109, 33);
+  
 }
 
 }
@@ -25,4 +28,7 @@ ul {
 }
 p.fundo {
     background-color: rgb(45, 225, 231);
-  rgb(0, 186, 199)
+}
+footer {
+    font-size: 75%;
+}
