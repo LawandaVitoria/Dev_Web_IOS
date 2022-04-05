@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(avengers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 3px 3px 5px #cccccc;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 3px 3px 5px #cccccc;
+}
+
+ul, p {
+    font-size: 1.4em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+img {
+    height: 240px;
+    width: 320px;
+}
+
+figure {
+    width: 320px;
+    padding: 5px;
+    border: 2px solid #000000;
+}
+main{
+    padding: 3em;
+}
+footer{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
