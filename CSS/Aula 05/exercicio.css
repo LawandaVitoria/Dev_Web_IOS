@@ -1,0 +1,11 @@
+@charset "utf-8";
+body{
+    background-image: url(avengers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+img {
+    height: 240px;
+    width: 320px;
+}
