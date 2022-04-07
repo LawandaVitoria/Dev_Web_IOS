@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+    background-image: url(spacejam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 3px 3px 5px #d342a7;
+}
+a{
+    padding: 5px;
+    border: 5px;
+    border-style: groove;
+    color: rgb(239, 239, 245);
+    text-decoration: none;
+    font-size: 1em;
+}
+article{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 150px;
+    font-size: 20px;
+}
+section{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 600px;
+}
