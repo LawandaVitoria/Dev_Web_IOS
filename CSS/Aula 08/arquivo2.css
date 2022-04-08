@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(118, 201, 201);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 2em;
+}
+
+nav {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.filme1 {
+    border: 2px;
+    border-style: double;
+    padding: 2em;
+}
+
+.filme2 {
+    border: 2px;
+    border-style: double;
+    padding: 2em;
+}
+
+.filme3 {
+    border: 2px;
+    border-style: double;
+    padding: 2em;
+}
+.filme4{
+    border: 2px;
+    border-style: double;
+padding: 2em;
+}
