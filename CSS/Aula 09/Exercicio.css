@@ -40,3 +40,10 @@ a:hover{
 h2{
     color: green;
 }
+body{
+    background-color: rgb(216, 210, 202);
+}
+.imagem:hover{
+    opacity: 0.5;
+}
+

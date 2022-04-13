@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(Attack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    
+}
+
+.resumo {
+    border: 2px solid #314a20;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c1c2bc50;
+}
+
+.video {
+    border: 2px solid #314a20;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c1c2bc50;
+}
+
+.notícias {
+    border: 2px solid #314a20;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c1c2bc50;
+}
+
+.curiosidades {
+    border: 2px solid #314a20;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c1c2bc50;
+}
+iframe{
+    float: left;
+    margin-right: 60px;
+}
+.imagem:hover{
+    opacity: 0.5;
+}
+::selection{
+    color: white;
+    background-color: #314a20;
+}
+header h1{
+    background-image: url(ontitan.jpg);
+    padding: 1rem;
+   font-size: xx-large;
+    text-align: center;
+}
+.resumo img{
+    float: right;
+}
+footer p::before{
+    content:"2022| ";
+}
+footer p::after{
+    content: "| Vitória";
+}
+footer{
+    border: 2px solid #314a20;
+    margin: 1rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c1c2bc50;
+    text-align: center;
+}
+.btn{
+    border: 4px solid #314a20;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: #314a20;
+    color: white;
+}
+figcaption::first-letter{
+color: brown;
+font-size: 70%;
+}
