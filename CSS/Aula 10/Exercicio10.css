@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+    background-image: url(Crepusculo.jpg);
+    font-family: "Tahoma", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(58, 18, 18, 0.212);
+    background-attachment: fixed;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 25%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.crepusculo {
+    background: rgba(41, 1, 1, 0.582);
+    color: #555;
+    list-style-type: none;
+    border: 1px solid rgb(196, 181, 181);
+    margin: 0;
+    padding: 0;
+}
+
+.crepusculo .header {
+    background-color: rgb(61, 19, 3);
+    color: rgba(10, 9, 9, 0.979);
+    font-size: 25px;
+}
+
+.crepusculo li {
+    padding: 20px;
+    border-bottom: 20px solid rgba(2, 1, 1, 0.288);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.322);
+}
+
+
+@media(max-width:768px) {
+    .col {
+        width: 100%;
+    }
+}
+
+.col1 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
