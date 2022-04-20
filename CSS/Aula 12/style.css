@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.container {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: auto;
+    background-color: black;
+}
+
+.item1 {
+    background-color:rgb(192, 24, 24);
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.item2 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.item3 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
