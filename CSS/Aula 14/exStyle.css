@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     max-width: 1500px;
@@ -29,7 +30,12 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
-    background-color: rgb(249, 249, 253);
+    background-color: rgba(249, 249, 253, 0.288);
+    margin-bottom: 1.7rem;
+    border: 2px solid black;
+    padding: 25px;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 .donut img{
     height: 350px;
@@ -39,7 +45,12 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
-    background-color: rgb(248, 248, 255);
+    background-color: rgba(249, 249, 253, 0.288);
+    margin-bottom: 1.7rem;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 .donutzinho img{
     height: 350px;
@@ -47,6 +58,17 @@ header{
 }
 .donutzinho>div{
     padding: 2rem;
+}
+.donut>div{
+    padding: 2rem;
+}
+.donutzão{
+    margin-top: 150px;
+}
+.donutzinho:nth-child(2) img{
+    order: 2;
+    margin-left:250px ;
+
 }
 
 
